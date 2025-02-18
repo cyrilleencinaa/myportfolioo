@@ -1,0 +1,256 @@
+
+.logo{
+    height: 50px;
+    width: 50px;
+    animation-name: logoanim;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logoanim{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.site-title{
+    font-family: "Madimi One", serif;
+    font-weight: bold;
+    font-size: 34px;
+    color: #f8a5c2;
+}
+
+.site-title-container{
+    margin-left: 50px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header{
+    background-color: #B53471;
+    box-shadow: 0px 20px 40px 2px #B53471;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    height: 60px;
+
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.hire-me{
+    padding: 10px 10px;
+    color: white;
+}
+
+.menu p{
+    font-family: "Kanit", serif;
+    font-weight: 600;
+    font-size: 19px;
+    margin: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.menu a {
+    font-family: "Kanit", serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.menu a:hover {
+    color: #ff1493;
+}
+
+.hero-btn-container .resume-btn:hover{
+    color: white;
+}
+
+.hero-btn-container .contact-btn:hover{
+    color: white;
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    padding: 80px 100px 7px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.hero-left{
+    margin-left: 130px;
+    width: 40%;
+    position: relative;
+}
+
+.hero-right{
+    margin-right: 200px;
+    width: 60%;
+}
+
+.small-logo{
+    width: 81px;
+    height: 77px;
+    position: absolute;
+    left: -45px;
+    top: 200px;
+}
+
+.hero-heading{
+    font-family: "Mouse Memoirs", serif;
+    font-size: 75px;
+    color: #6F1E51;
+
+}
+
+.hero-sub-heading{
+    font-family: "Nerko One", serif;
+    padding: 20px 0;
+    opacity: 0.7;
+    font-size: 26px;
+}
+
+.hero-btn-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.resume-btn,
+.contact-btn{
+    font-family: "Nerko One", serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.resume-btn{
+    background-color: deeppink;
+    color: lightpink;
+}
+
+
+.contact-btn{
+    background-color: lightpink;
+    color: deeppink;
+}
+
+.small-text{
+    font-family: "Nerko One", serif;
+    font-size: 18px;
+    margin-top: 30px;
+    opacity: 0.4;
+}
+
+.about-section {
+    font-family: "Madimi One", serif;
+    margin-top: 81px;
+    background-image: url('cy_bg.jpg'); 
+    background-color: rgba(66, 62, 62, 0.8);    
+    background-blend-mode: multiply;
+    padding: 3px;
+    color: white;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.content-container {
+    max-width: 900px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #ff00ff; 
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-top: -10px;
+    color: #bbb;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.profile-image {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.info-text {
+    font-family: "Nerko One", serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+    max-width: 500px;
+}
+
+.heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    background-color: #ff00ff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #cc00cc;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+}
+
+
+
+
+
+
+
+
